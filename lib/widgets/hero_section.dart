@@ -95,20 +95,8 @@ class HeroSection extends StatelessWidget {
                       child: Column(
                         mainAxisSize: MainAxisSize.min,
                         children: [
-                          Container(
-                            padding: const EdgeInsets.all(24),
-                            decoration: BoxDecoration(
-                              shape: BoxShape.circle,
-                              color: const Color(
-                                0xFF4ADE80,
-                              ).withValues(alpha: 0.16),
-                            ),
-                            child: const Icon(
-                              Icons.person_rounded,
-                              size: 76,
-                              color: Color(0xFF4ADE80),
-                            ),
-                          ),
+                          Image.asset('assets/images/profile.png', height: 200),
+
                           const SizedBox(height: 16),
                           Text(
                             'Available for freelance & full-time roles',
@@ -201,20 +189,8 @@ class HeroSection extends StatelessWidget {
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Container(
-                          padding: const EdgeInsets.all(24),
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            color: const Color(
-                              0xFF4ADE80,
-                            ).withValues(alpha: 0.16),
-                          ),
-                          child: const Icon(
-                            Icons.person_rounded,
-                            size: 76,
-                            color: Color(0xFF4ADE80),
-                          ),
-                        ),
+                        Image.asset('assets/images/profile.png', height: 200),
+
                         const SizedBox(height: 16),
                         Text(
                           'Available for freelance & full-time roles',
